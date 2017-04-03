@@ -10,7 +10,6 @@ void display()
 	glPushMatrix();
 	glTranslatef(0, 0, -300);
 	glRotatef(a, sin(b / 100) + 1, cos(b / 200) + 1, sin(b / 300) + 1);
-	
 	glBegin(GL_LINE_STRIP);
 	glColor3d(1, 0, 0);
 	glVertex3f(-50, -50, -50);
@@ -19,8 +18,6 @@ void display()
 	glVertex3f(-50,  50, -50);
 	glVertex3f(-50, -50, -50);
 	glEnd();
-	
-
 	glBegin(GL_LINE_STRIP);
 	glColor3d(0, 1, 0);
 	glVertex3f(-50, -50, 50);
@@ -29,7 +26,6 @@ void display()
 	glVertex3f(-50,  50, 50);
 	glVertex3f(-50, -50, 50);
 	glEnd();
-
 	glBegin(GL_LINES);
 	glColor3d(0, 0, 1);
 	glVertex3f(-50, -50, 50);
